@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
-/* Palete-
+/* Palette-
 --light-green: #99f7ab;
 --pink-lavender: #d0a5c0;
 --crimson: #d62839;
@@ -36,18 +36,13 @@ header {
 	width: 100%;
 	margin: 0 auto;
 	max-height: 450px;
+	background-size: cover;
 }
 
-#logo1 {
+.face {
+	display: block;
 	width: 20%;
-	float: left;
-	border: 6px groove #175676;
-}
-
-#logo2 {
-	width: 20%;
-	float: right;
-	border: 6px groove #175676;
+	margin: 0 auto;
 }
 
 h3 {
@@ -73,8 +68,16 @@ h2 {
 	font-family: acme, sans-serif;
 }
 
-main {
-	
+section {
+	display: block;
+	width: 90%;
+	background-color: #458cd2;
+	margin: 0 auto;
+	border: 5px #7e007b solid;
+}
+
+section .proj {
+	border: none;
 }
 
 .prog {
@@ -91,6 +94,12 @@ a {
 	text-decoration: none;
 	color: #d0a5c0;
 	font-family: acme, sans-serif;
+}
+
+nav a li {
+	display: block;
+	margin: 0 auto;
+	font-size: 1.5em;
 }
 
 footer {
