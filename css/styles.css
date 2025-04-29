@@ -96,10 +96,21 @@ a {
 	font-family: acme, sans-serif;
 }
 
-nav a li {
+nav {
 	display: block;
-	margin: 0 auto;
+	margin: 0 5%;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 10%;
+}
+
+nav a li {
 	font-size: 1.5em;
+	color: #d0a5c0;
+
 }
 
 footer {
