@@ -22,13 +22,19 @@
 body {
 	font-family: 'Tilt Neon', sans-serif;
 	background-color: #175676;
-	color: #99f7ab;
+	color: #000;
 }
 
 header {
-	background-color: #7e007b;
-	border-bottom: solid 10px #99f7ab;
-	color: #d62839
+	background-color: #272222;
+	border-bottom: solid 10px #0e1260;
+	color: #B00C0C
+}
+
+.open {
+	text-align: center;
+	color: #B00C0C;
+	padding-top: .5%;
 }
 
 #hero {
@@ -36,6 +42,12 @@ header {
 	width: 100%;
 	margin: 0 auto;
 	max-height: 450px;
+	background-size: cover;
+}
+
+main {
+	background-image: url(../images/pretty-forest.jpeg);
+	background-position: center;
 	background-size: cover;
 }
 
@@ -61,6 +73,21 @@ h3 {
 
 h1 {
 	text-align: center;
+	color: #B00C0C;
+	background-color: #fff;
+	width: 30%;
+	padding: 0%;
+	margin: 1% auto;
+	border-radius: 15px;
+}
+
+.open {
+	display: block;
+	color: #B00C0C;
+	padding-top: .5%;
+	background-color: #272222;
+	text-align: center;
+	margin: 0 auto;
 }
 
 h2 {
@@ -71,19 +98,55 @@ h2 {
 section {
 	display: block;
 	width: 90%;
-	background-color: #458cd2;
+	background-color: #818181;
 	margin: 0 auto;
-	border: 5px #7e007b solid;
+	padding: 1.2% 0;
+	border: 5px #181618 solid;
+	border-radius: 15px;
 }
 
-section .proj {
-	border: none;
+.proj {
+	display: block;
+	width: 40%;
+	padding: 2%;
+	margin: 2% auto;
+	border: 5px #818181 solid;
+	background-color: #181618;
+	border-radius: 15%;
+}
+
+.proj h1 {
+	color: #B00C0C;
+	font-size: 1.8em;
+	padding-bottom: 1%;
+}
+
+.proj p {
+	color: #fff;
+}
+
+.proj img {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 15%;
+}
+
+.proj a {
+	display: block;
+	width: 10%;
+	padding: 0%;
+	margin: 0 auto;
+	text-align: center;
+	background: #fff;
+	color: #000000;
+	border-radius: 15px;
 }
 
 .prog {
 	width: 40%;
 	padding-left: 2%;
-	max-height: 300px
+	max-height: 300px;
 }
 
 .am {
@@ -104,13 +167,13 @@ nav {
 
 nav ul li {
 	display: inline-block;
-	margin: 0 10%;
+	margin: 5px 10%;
 }
 
 nav a li {
 	font-size: 1.5em;
-	color: #d0a5c0;
-
+	color: #fff;
+	background-color: #7b7b7b;
 }
 
 footer {
@@ -119,6 +182,7 @@ footer {
 	background-color: #272222;
 	color: #fff;
 	text-align: center;
+	border-top: solid 10px #0e1260;
 }
 
 footer a {
