@@ -21,7 +21,8 @@
 
 body {
 	font-family: 'Tilt Neon', sans-serif;
-	background-color: #175676;
+	background-color: #272222;
+	;
 	color: #000;
 }
 
@@ -55,6 +56,8 @@ main {
 	display: block;
 	width: 20%;
 	margin: 0 auto;
+	border-radius: 150px;
+	border: #B00C0C 10px solid;
 }
 
 h3 {
@@ -79,6 +82,7 @@ h1 {
 	padding: 0%;
 	margin: 1% auto;
 	border-radius: 15px;
+	border: #B00C0C 5px solid;
 }
 
 .open {
@@ -88,6 +92,7 @@ h1 {
 	background-color: #272222;
 	text-align: center;
 	margin: 0 auto;
+	border: none;
 }
 
 h2 {
@@ -143,6 +148,13 @@ section {
 	border-radius: 15px;
 }
 
+.proj h1 {
+	width: 75%;
+	border-radius: 15px;
+	background: #000;
+	border: #fff 5px solid;
+}
+
 .prog {
 	width: 40%;
 	padding-left: 2%;
@@ -174,6 +186,8 @@ nav a li {
 	font-size: 1.5em;
 	color: #fff;
 	background-color: #7b7b7b;
+	border-radius: 15px;
+	border: #000 5px solid;
 }
 
 footer {
