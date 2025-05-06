@@ -180,6 +180,7 @@ nav {
 nav ul li {
 	display: inline-block;
 	margin: 5px 10%;
+	padding: .5%;
 }
 
 nav a li {
